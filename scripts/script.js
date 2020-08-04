@@ -52,7 +52,7 @@ submitButton.addEventListener('click',function(){
 
     const pinDisplay = document.getElementById('pin-display');
     const digitDisplay = document.getElementById('digit-display');
-    // console.log(digitDisplay.value.length);
+    
     if(pinDisplay.value.length<=0){
         alert('Pin is not generated');
         if(confirm('Want to Generate the Pin?')){
